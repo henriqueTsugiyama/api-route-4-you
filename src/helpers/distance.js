@@ -16,6 +16,7 @@ function getDistance(origin, destination) {
 function toRadian(degree) {
     return degree*Math.PI/180;
 }
-var distance = getDistance([-23.500147,-47.458557], [-22.910086,-47.059311])
 
-console.log(distance)
+module.exports = {
+    getDistance,
+}
